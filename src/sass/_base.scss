@@ -25,9 +25,15 @@ body{
 }
 .fondo{
 	width:100%;
-	height:250px;
+	height:500px;
 	background-color:$blanco;
 }
+
+img.responsive-img{
+		height:36px !important;
+	
+}		
+
 //footer adhesivo
 .footer{
 	
