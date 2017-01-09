@@ -1,3 +1,5 @@
+//funcion seleccionar cuidades boton select 
+
 $(document).ready(function(){
 	// tu codigo va acá
 	cuidades = get_regiones();
@@ -9,10 +11,13 @@ $(document).ready(function(){
 		destino.append($("<option/>").val(index).text(cuidades[index].name));
 	});
 });
+//tooltips
+
 $(document).ready(function(){
 	$('.tooltipped').tooltip({delay: 50});
 });
 
+//boton select
 $(document).ready(function() {
 	$('select').material_select();
 });
