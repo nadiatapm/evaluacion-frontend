@@ -5,6 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+    "script": "gulp script",
+    "style": "gulp style,"
+    "clean":"borra la carpeta dist",
+    "ci":"hace un commiten el proyecto"
+
   },
   "author": "",
   "license": "ISC",

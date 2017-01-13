@@ -11,6 +11,11 @@ $(document).ready(function(){
 		destino.append($("<option/>").val(index).text(cuidades[index].name));
 	});
 });
+ /*function para usar la api de google init map
+ se crea varible global var map;
+ function initMap(){
+	map = new google.maps(document.get)
+ }*/
 //tooltips
 
 $(document).ready(function(){

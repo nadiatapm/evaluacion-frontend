@@ -1,4 +1,4 @@
-var gulp = require('gulp');
+ var gulp = require('gulp');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 var rename = require('gulp-rename');
@@ -64,6 +64,10 @@ gulp.task('style', function(){
 		// dejarlo en carpeta dist/css
 		.pipe(gulp.dest('dist/css'));
 });
+//esta tarea es para actualizar solo una vez gulp
+ gulp.task('watch,'function(){
+ 	gulp.watch('')
+ })
 
 gulp.task('fonts', function(){
 	gulp.src('src/fonts/*')
